@@ -52,19 +52,31 @@ impl Ip {
     /// # Uuid getter
     ///
     /// ## Return
-    /// Returns the `uuid` field automatically generated.
+    /// Returns the `uuid` field automatically generated as `&str`.
     pub fn get_uuid(&self) -> &str {
         &self.uuid
     }
 
+    /// # Name getter
+    ///
+    /// ## Return
+    /// Returns the `name` field as `&str`.
     pub fn get_name(&self) -> &str {
         &self.name
     }
 
+    /// # IP getter
+    ///
+    /// ## Return
+    /// Returns the `ip` field as `&str`.
     pub fn get_ip(&self) -> &str {
         &self.ip
     }
 
+    /// # Comment getter
+    ///
+    /// ## Return
+    /// Returns the `comment` field as `&str`.
     pub fn get_comment(&self) -> &str {
         &self.comment
     }
