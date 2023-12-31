@@ -81,18 +81,34 @@ impl Ip {
         &self.comment
     }
 
+    /// # Uuid setter
+    ///
+    /// ## Setting
+    /// Setting the `uuid` field value.
     pub fn set_uuid(&mut self, uuid: String) {
         self.uuid = uuid;
     }
 
+    /// # Name setter
+    ///
+    /// ## Setting
+    /// Setting the `name` field value.
     pub fn set_name(&mut self, name: String) {
         self.name = name;
     }
 
+    /// # IP setter
+    ///
+    /// ## Setting
+    /// Setting the `IP` field value.
     pub fn set_ip(&mut self, ip: String) {
         self.ip = ip;
     }
 
+    /// # Comment setter
+    ///
+    /// ## Setting
+    /// Setting the `comment` field value.
     pub fn set_comment(&mut self, comment: String) {
         self.comment = comment;
     }
